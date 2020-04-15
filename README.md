@@ -13,4 +13,7 @@ Project from Udemy Course
 
   [5:20pm]
   I styled the header text content. I used rem units instead of pixels like the video shows because I like my fonts to be responsive. I'm sure hell suggest the same later in the course anyways.
+
+  [5:55pm]
+  I just coded in the animation for the heading text to slide in from the left/right on load. It is something that I dont use often so I want to remember how to do this in the future.
 }
