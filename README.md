@@ -22,4 +22,15 @@ Project from Udemy Course
 
   [6:47pm]
   Completed the hober and active states for the button on the heading. I love the functionality of using translate with box shadow to make the button look as though we are actually pressing on it in 3d.
+
+  [7:03pm]
+  Finished the lecture on the second half of the button styling. This part is to make the button animate in from the bottom after the header text animates in, and to pulse when hovered in and out of the button.
+
+  [7:28pm]
+  Completed the animation for the button to slide in from the bottom AFTER the text slides in from the sides. I used animation fill mode to make its opacity be the same as it is set to in the 0% section of the keyframe untill the animation delay is over, which makes it invisble untill the delay is over. during the delay the text animations are happening. I also made a psudo element after it that will scale up and opacity 0 on hover making it look like it is pulsing.
+
+  With what I have just learned in creating this header I want to now begin to create my own project. 
+
+  Project Ideas:
+  1. Create an animation of a foot kicking a ball that will fly and bounce after. have the foot cock back on hover, then cock back a bit more then kick the ball on active. Make the ball fly and bounce.
 }
