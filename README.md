@@ -10,4 +10,7 @@ Project from Udemy Course
 
   [4:53pm]
   Finished watching the next section about styling and positioning the text in the header. I usualy use flexbox to position things in the center, but here I learned more in depth about how to use position absolute and transform to center things. Good to know.
+
+  [5:20pm]
+  I styled the header text content. I used rem units instead of pixels like the video shows because I like my fonts to be responsive. I'm sure hell suggest the same later in the course anyways.
 }
