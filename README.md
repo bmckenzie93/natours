@@ -16,4 +16,10 @@ Project from Udemy Course
 
   [5:55pm]
   I just coded in the animation for the heading text to slide in from the left/right on load. It is something that I dont use often so I want to remember how to do this in the future.
+
+  [6:28pm]
+  Watched the lecture on styling the button to look as if it is raising off the page when hovered on, and gets closer to the page when it is being clicked. Super cool, this is definately one of the key things I want to have going on in my style of web designing using css.
+
+  [6:47pm]
+  Completed the hober and active states for the button on the heading. I love the functionality of using translate with box shadow to make the button look as though we are actually pressing on it in 3d.
 }
