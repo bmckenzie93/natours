@@ -48,4 +48,25 @@ Project from Udemy Course
 
   [12:53pm]
   I refactored the html and css to follow BEM methodologies.
-}
+
+  [1:24pm]
+  Reviewed Sass.. mixins, extends, nesting, variables ect.. nothing new
+
+  [1:27pm]
+  I am now reviewing command line. I just learned that I can autocomplete using tab if there is only one folder that starts with whatever I am typing. that is helpful
+    COMMAND LINE : NEW TRICKS
+      -Use tab to autocomplete folder names
+      -Create multiple files with touch command, not one at a time
+      -mv or cp .. will copy or move a file up one folder
+      -rm = remove from computer - not to trash bin
+      -rm -r will delete a whole folder and its contents
+      -open filename can open an image
+      - up key well show last commands fired
+
+  [2:00pm]
+  I just installed nodeJS and npm to use npm sass compiler on this project. Before this I had only used the live sass compiler extension on vs code.
+
+  [2:24pm]
+  I just ran my first npm script! I learned all about using node-sass to compile my sass! so cool! 
+
+  
