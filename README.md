@@ -69,4 +69,8 @@ Project from Udemy Course
   [2:24pm]
   I just ran my first npm script! I learned all about using node-sass to compile my sass! so cool! 
 
-  
+  [2:45pm]
+  I just installed live server with npm and am now running it to watch live updates on this project.
+
+  [2:50pm]
+  I am at the point where I have my work flow environment all set up and am ready to move on with the natours project, but first I want to go back to my wild water world project and implement some of what I have learned on it. I want to make the buttons have a cool animation.
