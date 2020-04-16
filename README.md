@@ -80,3 +80,9 @@ Project from Udemy Course
 
   [3:42pm]
   Code refactored, scss styles nested
+
+  [3:52pm]
+  I just watched how to create the '7-1 archatecture' file methidology and am now going to create all of the files to implement it.
+
+  [4:24pm]
+  I just disected my code into differant files for scalability. 
