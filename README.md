@@ -34,3 +34,10 @@ Project from Udemy Course
   Project Ideas:
   1. Create an animation of a foot kicking a ball that will fly and bounce after. have the foot cock back on hover, then cock back a bit more then kick the ball on active. Make the ball fly and bounce.
 }
+
+# 4-15-2020 {
+  [7:52pm]
+  Last night I designed and animated a bouncing ball with a cool background making it look pretty realistic. It was really exciting.
+
+  I just watched the section of the course where I was explained inheritance, and I see the value in making the default font size 10px instead of 16 - I think - as well as how to universally select the before and after psudo elements as well in the reset for the page. I also learned to set box sizing to inherit in the reset, and specify border box in the body. I will revise this project to follow these practices now. 
+}
