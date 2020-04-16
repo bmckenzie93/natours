@@ -46,5 +46,6 @@ Project from Udemy Course
   [12:32pm]
   Last night and this morning I listned to videos anout using BEM - 'Block Element Modifyer' - methidologies for naming html classes as well as a 7 - 1 folder system for organizing sass folders and files.
 
-  
+  [12:53pm]
+  I refactored the html and css to follow BEM methodologies.
 }
