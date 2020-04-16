@@ -41,3 +41,10 @@ Project from Udemy Course
 
   I just watched the section of the course where I was explained inheritance, and I see the value in making the default font size 10px instead of 16 - I think - as well as how to universally select the before and after psudo elements as well in the reset for the page. I also learned to set box sizing to inherit in the reset, and specify border box in the body. I will revise this project to follow these practices now. 
 }
+
+# 4-16-2020 {
+  [12:32pm]
+  Last night and this morning I listned to videos anout using BEM - 'Block Element Modifyer' - methidologies for naming html classes as well as a 7 - 1 folder system for organizing sass folders and files.
+
+  
+}
