@@ -74,3 +74,9 @@ Project from Udemy Course
 
   [2:50pm]
   I am at the point where I have my work flow environment all set up and am ready to move on with the natours project, but first I want to go back to my wild water world project and implement some of what I have learned on it. I want to make the buttons have a cool animation.
+
+  [3:17pm]
+  Nevermind I am so done with that damn project. MOVE ON BRANDON!
+
+  [3:42pm]
+  Code refactored, scss styles nested
