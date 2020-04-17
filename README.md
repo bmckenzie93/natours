@@ -86,3 +86,6 @@ Project from Udemy Course
 
   [4:24pm]
   I just disected my code into differant files for scalability. 
+
+  [6:07pm]
+  I just created my own grid system using floats. It was some straight up math! I see how powerfull css grid and flexbox are now that I know what the old school way of doing layouts with floats is. All hail flexbox and grid hahaha. 

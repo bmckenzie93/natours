@@ -1,0 +1,44 @@
+.row {
+  max-width: $grid-width;
+  margin: 0 auto;
+  background-color: orange;
+  
+  &:not(:last-child) {
+    margin-bottom: $gutterY;
+  }
+
+  @include clr; 
+
+  [class^="col-"] {
+    background-color: orangered;
+    float: left;
+
+    &:not(:last-child) {
+      margin-right: $gutterX;
+    }
+  }
+
+  .col-1-of-2 {
+    width: calc( (100% - #{$gutterX}) / 2); 
+  }
+
+  .col-1-of-3 {
+    width: calc( (100% - (#{$gutterX} * 2)) / 3); 
+  }
+
+  .col-2-of-3 {
+    width: calc( ((100% - (#{$gutterX} * 2)) / 3) * 2 + #{$gutterX});  
+  }
+
+  .col-1-of-4 {
+    width: calc( (100% - (#{$gutterX} * 3)) / 4); 
+  }
+
+  .col-2-of-4 {
+    width: calc( ((100% - (#{$gutterX} * 3)) / 4 * 2 + #{$gutterX})); 
+  }
+
+  .col-3-of-4 {
+    width: calc( ((100% - (#{$gutterX} * 3)) / 4) * 3 + (#{$gutterX} * 2)); 
+  }
+}    
