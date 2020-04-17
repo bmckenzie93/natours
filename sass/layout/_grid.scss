@@ -1,7 +1,6 @@
 .row {
   max-width: $grid-width;
   margin: 0 auto;
-  background-color: orange;
   
   &:not(:last-child) {
     margin-bottom: $gutterY;
@@ -10,7 +9,6 @@
   @include clr; 
 
   [class^="col-"] {
-    background-color: orangered;
     float: left;
 
     &:not(:last-child) {

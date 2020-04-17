@@ -89,3 +89,9 @@ Project from Udemy Course
 
   [6:07pm]
   I just created my own grid system using floats. It was some straight up math! I see how powerfull css grid and flexbox are now that I know what the old school way of doing layouts with floats is. All hail flexbox and grid hahaha. 
+
+  [6:33pm]
+  I am about to create a heading component, keeping in mind archatecture, scalability, reusability, and good css practices.
+
+  [7:30pm]
+  I styled a heading component with a skew on hover effect that can be reused throughout the project. 
