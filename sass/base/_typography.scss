@@ -1,7 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
   line-height: 1.7;
-  font-size: 1rem;
+  font-size: $font-size-default;
   font-weight: 400;
   color: $color-gray-dark;
   padding: 1.9rem;
@@ -46,4 +46,18 @@ body {
     transform: skew(15deg, 4deg) scale(1.1);  
     text-shadow: .4rem 1rem 2rem rgba($color-black, .2);   
   }
-}     
+}
+
+.heading-tertiary {
+  font-size: $font-size-default;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: $font-size-default;
+  
+  &:not(:last-child) {
+    margin-bottom: .5rem; 
+  }
+}

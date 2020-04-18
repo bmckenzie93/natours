@@ -100,5 +100,8 @@ Project from Udemy Course
   [12:30pm]
   It is saturday, I have the day to work on my dreams again. I have been working on this advanced css course for the last few days I've had, as well as been brainstorming about the next project that I want to undergo 'Off The Wall Graffiti' website remake.
 
+  [1:27pm]
+  I just created and styled the learn more button. I learned the &rarr; code to make an arrow. I also wasnt able to make my button move up at first because I forgot to make it an inline block.
+
   []
 }
