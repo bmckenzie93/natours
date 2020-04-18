@@ -95,3 +95,10 @@ Project from Udemy Course
 
   [7:30pm]
   I styled a heading component with a skew on hover effect that can be reused throughout the project. 
+
+# 4-18-2020 {
+  [12:30pm]
+  It is saturday, I have the day to work on my dreams again. I have been working on this advanced css course for the last few days I've had, as well as been brainstorming about the next project that I want to undergo 'Off The Wall Graffiti' website remake.
+
+  []
+}
