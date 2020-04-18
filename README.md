@@ -108,4 +108,11 @@ Project from Udemy Course
 
   [2:25pm]
   I completed the composition component. I used the :not psudoselector again to hover over a div and select the images inside that were not being hovered over to scale them down. cool stuff here. also used the outline property, couppled with the outline offset to make a cool border with a gap.
+
+  [3:13pm]
+  I am about to code up some feature boxes.
+
+  [4:05pm]
+  I completed the feature section with all the feature boxes. I went ober BEM again, making text with a gradient, and creating a skewed background section. I learned how to use the direct child selector and why to use it - as to not skew the children of the children as well.
 }
+
