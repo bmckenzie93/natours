@@ -103,5 +103,9 @@ Project from Udemy Course
   [1:27pm]
   I just created and styled the learn more button. I learned the &rarr; code to make an arrow. I also wasnt able to make my button move up at first because I forgot to make it an inline block.
 
-  []
+  [1:46pm]
+  I watched how to do the image composition in the about section, and now I am going to code it out. 
+
+  [2:25pm]
+  I completed the composition component. I used the :not psudoselector again to hover over a div and select the images inside that were not being hovered over to scale them down. cool stuff here. also used the outline property, couppled with the outline offset to make a cool border with a gap.
 }

@@ -164,6 +164,35 @@ body {
   transform: translateY(0);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
 
+.composition {
+  position: relative; }
+  .composition__img {
+    width: 55%;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+    outline-offset: 1.5rem;
+    border-radius: 2px;
+    z-index: 10;
+    transition: all .2s; }
+    .composition__img:hover {
+      outline: 1rem solid #55c57a;
+      transform: translateY(-1rem) scale(1.1);
+      box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.3);
+      z-index: 20; }
+    .composition__img--img-1 {
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .composition__img--img-2 {
+      position: absolute;
+      top: 2rem;
+      right: 0; }
+    .composition__img--img-3 {
+      position: absolute;
+      top: 6rem;
+      left: 20%; }
+  .composition:hover .composition__img:not(:hover) {
+    transform: scale(0.95); }
+
 .row {
   max-width: 72rem;
   margin: 0 auto; }
