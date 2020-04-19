@@ -114,5 +114,17 @@ Project from Udemy Course
 
   [4:05pm]
   I completed the feature section with all the feature boxes. I went ober BEM again, making text with a gradient, and creating a skewed background section. I learned how to use the direct child selector and why to use it - as to not skew the children of the children as well.
+
+  [4:38pm]
+  I just watched how to make a card flip and have differant information on each side. there was 2 cards positioned absolutely ontop of eachother, one that rotates 180deg and the other 0 deg, both with a backface visibility hidden. Epic stuff there - now let me try.
+
+  [5:41pm]
+  It took a while but I got it down. I was stumped as to why there was a white square behind my card as it was flipping but it was because I had the background shadow on the card instead of the card side.
+
+  [6:37pm]
+  I took a bit of a break to make a few chess moves and I am back at it now. maybe like 10 min. 
+
+  [7:30pm]
+  The front of that card was sooo lit to make! It took a cool minute.. I guess it only took an hour so not that long but it was challenging. I had to use box decoration break: clone and background blend mode: screen for the first time. I kept forgetting to add classes to certain preceading elements in the BEM method which confused me for a while each time. like card, card-heading, card-heading-span, having all 3 of them in each elemnt.
 }
 

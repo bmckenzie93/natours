@@ -1,0 +1,106 @@
+.card {
+  //Functionality
+  -moz-perspective: 100rem;
+  perspective: 100rem;
+  position: relative;
+  height: 35rem; 
+
+  &__side {
+    height: 35rem;
+    transition: all .8s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+    
+    box-shadow: 0 3rem 5rem rgba($color-black, .2);
+    &--front {
+      background-color: $color-white;
+    }
+
+    &--back {
+      transform: rotateY(-180deg);
+
+      &-1 {
+        background-image: linear-gradient(
+          to bottom right, 
+          $color-secondary-light, 
+          $color-secondary-dark);
+      } 
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0deg); 
+  }
+
+  //Front Side Styling
+  &__picture {
+    background-size: cover;
+    height: 14rem;
+    -webkit-background-blend-mode: screen;
+    background-blend-mode: screen;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+    &--1 {
+      background-image: 
+      linear-gradient(
+        to bottom right, 
+        $color-secondary-light, 
+        $color-secondary-dark),
+      url(../img/nat-5.jpg);
+    } 
+  }
+
+  &__heading {
+    font-size: 2.3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $color-white;
+    position: absolute;
+    top: 7.5rem;
+    right: 1rem;
+    text-align: right;
+    width: 75%; 
+  }
+
+  &__heading-span {
+    padding: .5rem .7rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+
+    &--1 {
+      background-image:linear-gradient(to bottom right, 
+          rgba($color-secondary-light, .85), 
+          rgba($color-secondary-dark, .85));
+    } 
+  }
+
+  &__details {
+    padding: 2.5rem;
+    
+    ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto;
+
+      li {
+        text-align: center;
+        font-size: .9rem;
+        padding: 1rem;
+
+        &:not(:last-child) {
+          border-bottom: 1px dotted $color-gray-light-2;
+        }
+      }
+    }
+  }
+}  
