@@ -126,5 +126,8 @@ Project from Udemy Course
 
   [7:30pm]
   The front of that card was sooo lit to make! It took a cool minute.. I guess it only took an hour so not that long but it was challenging. I had to use box decoration break: clone and background blend mode: screen for the first time. I kept forgetting to add classes to certain preceading elements in the BEM method which confused me for a while each time. like card, card-heading, card-heading-span, having all 3 of them in each elemnt.
+
+  [9:00pm]
+  I finished making all 3 cards and the button below them. I broke it by placing an htmnl element in the wrong div or something and had to fix it but I finally got it. time to clock out!
 }
 
