@@ -140,5 +140,8 @@ Project from Udemy Course
   [11:47am]
   I am about to work on the story section on this Natours project. In this section I will learn how to create testimonials and have a bakcground video. I am not feeling totally in flow with code so far this morning, so I am going to make myself some coffee and try and zone into what I am learning and become present to it. No rush, I have 8 hours today.
 
-  
+  [1:00pm]
+  So far I have gone over how to skew a div with content, and skew back the content so it looks right. I also went over the shape outside ability and made a clip path of a circle.
+
+  []
 }
