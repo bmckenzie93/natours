@@ -143,5 +143,8 @@ Project from Udemy Course
   [1:00pm]
   So far I have gone over how to skew a div with content, and skew back the content so it looks right. I also went over the shape outside ability and made a clip path of a circle.
 
+  [1:36pm]
+  I finished making the stories design. I added a hover effect making the picure zoom out, blur, and darken on hover; while the name of the person animates in on top. Next up is the background video.
+
   []
 }

@@ -8,6 +8,7 @@
   padding-left: 5rem;
   font-size: $font-size-default;
   transform: skewX(-12deg); 
+  
 
   & > * {
     transform: skewX(12deg);
@@ -23,15 +24,39 @@
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-2rem) skewX(12deg);
-    
+    position: relative; 
     
   }
 
-  &__img {
+  &__img { 
     height: 100%;
+    transform: translateX(-2.3rem) scale(1.4);  
+    transition: all .5s ease-out;
   }
 
-  &__text {
+  &__text { 
     transform: skewX(12deg);
+  }
+
+  &__caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%, 20%); 
+    color: $color-white;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s ease-out; 
+  }
+
+  &:hover &__caption {
+    opacity: 1;
+    transform: translate(-50%, -50%); 
+  }
+
+  &:hover &__img {
+    transform: translateX(-2.3rem) scale(1); 
+    filter: blur(3px) brightness(.8); 
   }
 }  
