@@ -146,5 +146,14 @@ Project from Udemy Course
   [1:36pm]
   I finished making the stories design. I added a hover effect making the picure zoom out, blur, and darken on hover; while the name of the person animates in on top. Next up is the background video.
 
+  [2:07pm]
+  I completed the stories section by adding a background video. 
+
+  [2:21pm]
+  I just watched how to create a solid color gradient by specifying the gradient from 0 to 50% as one color, then from 50 to 100 the next color.
+
+  [3:03pm]
+  I created the 'booking' section where a form will go. I started creating the form, so far I just have the inputs with their labels on there.
+
   []
 }

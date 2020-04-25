@@ -2,7 +2,7 @@
   width: 75%;
   margin: 0 auto; 
   box-shadow: 0 2rem 4rem rgba($color-black, .2);
-  background-color: $color-white;
+  background-color: rgba($color-white, .6); 
   border-radius: 3px;
   padding: 3rem;
   padding-left: 5rem;
@@ -17,7 +17,6 @@
   &__shape {
     width: 10rem;
     height: 10rem;
-    background-color: orangered;
     float: left;
     -webkit-shape-outside: circle(50% at 50% 50%); 
     shape-outside: circle(50% at 50% 50%);
