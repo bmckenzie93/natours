@@ -131,3 +131,14 @@ Project from Udemy Course
   I finished making all 3 cards and the button below them. I broke it by placing an htmnl element in the wrong div or something and had to fix it but I finally got it. time to clock out!
 }
 
+# 4-19-2020 {
+  [11:22am]
+  I'm not oficially clocked in to code right now but im going to try and sneak in a lesson while my family is occupied.
+}
+
+# 4-25-2020 {
+  [11:47am]
+  I am about to work on the story section on this Natours project. In this section I will learn how to create testimonials and have a bakcground video. I am not feeling totally in flow with code so far this morning, so I am going to make myself some coffee and try and zone into what I am learning and become present to it. No rush, I have 8 hours today.
+
+  
+}
