@@ -155,5 +155,8 @@ Project from Udemy Course
   [3:03pm]
   I created the 'booking' section where a form will go. I started creating the form, so far I just have the inputs with their labels on there.
 
+  [4:06pm]
+  I just styled a really cool input/label group. I learned about how to select adjacent sibilings with the + psudoselecor, as well as how to use the placeholder-shown as well. animating the placeholder to transition down into the label on focus is awesome!
+
   []
 }
