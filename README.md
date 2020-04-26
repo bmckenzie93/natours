@@ -158,5 +158,12 @@ Project from Udemy Course
   [4:06pm]
   I just styled a really cool input/label group. I learned about how to select adjacent sibilings with the + psudoselecor, as well as how to use the placeholder-shown as well. animating the placeholder to transition down into the label on focus is awesome!
 
+  [4:31pm]
+  I just watched how to custom style radio buttons. super rad! I'm going to take a second to take out the trash then come back and code that out. Return='4:38'
+
+  [5:39pm]
+  I just completed the radio buttons and the submit button, completing the book section. I learned how to style custom radio buttons and only display them when checked.
+
   []
+
 }
