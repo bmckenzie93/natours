@@ -170,6 +170,7 @@ Project from Udemy Course
   [7:15pm]
   I banged that footer out then watched the section about how to style the fixed navbar and create the animations. that was a few that I am excited to go over.
 
-  []
+  [8:07pm]
+  I completed creating the navigation styling for when it is open all the way, with the hover effects on the links too. its a cool effect that looks like the background is filling up from the side using a lateral gradient and adjusting its position and size. Next up on the project is to give it open and close functionality;
 
 }
