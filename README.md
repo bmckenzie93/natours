@@ -164,6 +164,12 @@ Project from Udemy Course
   [5:39pm]
   I just completed the radio buttons and the submit button, completing the book section. I learned how to style custom radio buttons and only display them when checked.
 
+  [5:57pm]
+  I'm about to start of the footer now.
+
+  [7:15pm]
+  I banged that footer out then watched the section about how to style the fixed navbar and create the animations. that was a few that I am excited to go over.
+
   []
 
 }
