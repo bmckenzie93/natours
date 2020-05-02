@@ -177,4 +177,7 @@ Project from Udemy Course
 # 5-2-2020 {
   [12:42pm]
   I'm about to contnue on this tutorial project. I took a break from it to implement what I had learned so far on my own project, immersed in art, and am now ready to continue on this one for more information.
+
+  [1:58pm]
+  I just coded up the button icon. It is a line made of a span, and a before and after psudo element to make it into 3 stacked hamberger lines. on click the center line turns transparent and the other two lines rotate to create an X. cool beans.
 }
