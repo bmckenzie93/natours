@@ -172,5 +172,9 @@ Project from Udemy Course
 
   [8:07pm]
   I completed creating the navigation styling for when it is open all the way, with the hover effects on the links too. its a cool effect that looks like the background is filling up from the side using a lateral gradient and adjusting its position and size. Next up on the project is to give it open and close functionality;
+}
 
+# 5-2-2020 {
+  [12:42pm]
+  I'm about to contnue on this tutorial project. I took a break from it to implement what I had learned so far on my own project, immersed in art, and am now ready to continue on this one for more information.
 }
