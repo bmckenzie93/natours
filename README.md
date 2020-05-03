@@ -180,4 +180,11 @@ Project from Udemy Course
 
   [1:58pm]
   I just coded up the button icon. It is a line made of a span, and a before and after psudo element to make it into 3 stacked hamberger lines. on click the center line turns transparent and the other two lines rotate to create an X. cool beans.
+
+  [4:00pm]
+  I got off earlier to take my son on a walk to the creek, but now i'm back! time to bang out this modal.
+
+  [5:52pm]
+  I completed the modal, which is the last section of the project, and it was cool. I learned how to do some things in css that I thought I had to use javascript for. Things like creating a modal pop up that can open and close or opening and closing a menu. I can do these things with either the target psudosecector or a checkbox state. Next up on the project is to make it responsive.
+  
 }
