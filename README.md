@@ -186,5 +186,10 @@ Project from Udemy Course
 
   [5:52pm]
   I completed the modal, which is the last section of the project, and it was cool. I learned how to do some things in css that I thought I had to use javascript for. Things like creating a modal pop up that can open and close or opening and closing a menu. I can do these things with either the target psudosecector or a checkbox state. Next up on the project is to make it responsive.
-  
+
+}
+
+# 5-12-2020 {
+  [4:25pm]
+  I've been writing media queries since 1:00 with a cool mix in that I learned how to do. i'm on the footer right now and i'm excited to write the media queries on my own project after all of this is done.
 }

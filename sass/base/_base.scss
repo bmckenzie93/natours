@@ -7,9 +7,28 @@
 }
 
 html {
-  font-size: 100%;
+  // Defines 1rem
+  font-size: 100%;                    //16px
+
+
+  @include respond(tab-land) {        // width < 1200?
+    font-size: 87.5%;                 // 14px 
+  }
+
+  @include respond(tab-port) {        // width < 900?
+    font-size: 75%;                   // 12px 
+  }
+
+  @include respond(desktop-lg) {      // width > 1800?
+    font-size: 112.5%;                // 18px
+  }
 }
 
 body {
   box-sizing: border-box;
+  padding: 1.9rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
 }

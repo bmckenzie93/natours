@@ -1,9 +1,17 @@
 .row {
   max-width: $grid-width;
   margin: 0 auto;
+
+  @include respond(tab-port) {
+    max-width: 30rem;
+  }
   
   &:not(:last-child) {
     margin-bottom: $gutterY;
+
+    @include respond(tab-port) {
+      margin-bottom: $gutterY-sm; 
+    }
   }
 
   @include clr; 
@@ -13,6 +21,15 @@
 
     &:not(:last-child) {
       margin-right: $gutterX;
+
+      @include respond(tab-port) {
+        margin-right: 0;
+        margin-bottom: $gutterY-sm;
+      }
+    }
+
+    @include respond(tab-port) {
+      width: 100% !important;
     }
   }
 

@@ -1,3 +1,21 @@
+/*
+MEDIA QUERY MANAGER
+0-600          Phone
+600-900        Tablet Portrait
+900-1200       Tablet Landscape
+1200-1800      Desktop (Normal Styles)
+1800+          Desktop Large 
+
+$BREAKPOINT OPTIONS
+- phone
+- tab-port
+- tab-land
+- desktop-lg
+
+1em = 16px
+
+ORDER: Base + Typography > General Layout + Grid > Page Layout > Components
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -35,17 +53,29 @@
 
 html {
   font-size: 100%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 87.5%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 75%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 112.5%; } }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 1.9rem; }
+  @media (max-width: 56.25em) {
+    body {
+      padding: 0; } }
 
 body {
   font-family: "Lato", sans-serif;
   line-height: 1.7;
   font-size: 1rem;
   font-weight: 400;
-  color: #777;
-  padding: 1.9rem; }
+  color: #777; }
 
 .heading-primary {
   text-transform: uppercase;
@@ -57,6 +87,10 @@ body {
     font-weight: 700;
     letter-spacing: 2rem;
     animation: moveInLeft 1s ease-out; }
+    @media (max-width: 37.5em) {
+      .heading-primary--main {
+        font-size: 3rem;
+        letter-spacing: 1rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 1.2rem;
@@ -64,6 +98,10 @@ body {
     letter-spacing: 1rem;
     animation: moveInRight 1s ease-out;
     margin-bottom: 2rem; }
+    @media (max-width: 37.5em) {
+      .heading-primary--sub {
+        font-size: 1rem;
+        letter-spacing: .5rem; } }
 
 .heading-secondary {
   font-size: 1.7rem;
@@ -76,6 +114,12 @@ body {
   background-clip: text;
   letter-spacing: .2rem;
   transition: all .2s; }
+  @media (max-width: 56.25em) {
+    .heading-secondary {
+      font-size: 1.5rem; } }
+  @media (max-width: 37.5em) {
+    .heading-secondary {
+      font-size: 1rem; } }
   .heading-secondary:hover {
     transform: skew(15deg, 4deg) scale(1.1);
     text-shadow: 0.4rem 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -568,8 +612,14 @@ body {
 .row {
   max-width: 72rem;
   margin: 0 auto; }
+  @media (max-width: 56.25em) {
+    .row {
+      max-width: 30rem; } }
   .row:not(:last-child) {
-    margin-bottom: 3rem; }
+    margin-bottom: 4rem; }
+    @media (max-width: 56.25em) {
+      .row:not(:last-child) {
+        margin-bottom: 3rem; } }
   .row::after {
     content: '';
     clear: both;
@@ -578,6 +628,13 @@ body {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 4rem; }
+      @media (max-width: 56.25em) {
+        .row [class^="col-"]:not(:last-child) {
+          margin-right: 0;
+          margin-bottom: 3rem; } }
+    @media (max-width: 56.25em) {
+      .row [class^="col-"] {
+        width: 100% !important; } }
   .row .col-1-of-2 {
     width: calc( (100% - 4rem) / 2); }
   .row .col-1-of-3 {
@@ -599,6 +656,14 @@ body {
   position: relative;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  @media (max-width: 56.25em) {
+    .header {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 81vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 81vh, 0 100%); } }
+  @media (max-width: 37.5em) {
+    .header {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
   .header__logo-box {
     position: absolute;
     top: 2rem;
@@ -627,6 +692,10 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   text-align: center;
   cursor: pointer; }
+  @media (max-width: 56.25em) {
+    .navigation__button {
+      top: 1.5rem;
+      right: 1.5rem; } }
 
 .navigation__background {
   height: 5rem;
@@ -638,6 +707,10 @@ body {
   background-image: radial-gradient(#7ed56f, #28b485);
   z-index: 1000;
   transition: all 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+  @media (max-width: 56.25em) {
+    .navigation__background {
+      top: 2.6rem;
+      right: 2.6rem; } }
 
 .navigation__nav {
   height: 100vh;
@@ -727,6 +800,10 @@ body {
   background: #f7f7f7;
   padding: 15rem 0;
   margin-top: -20vh; }
+  @media (max-width: 56.25em) {
+    .section-about {
+      margin-top: -15vh;
+      padding-top: 15rem; } }
 
 .section-features {
   padding: 15rem 0;
